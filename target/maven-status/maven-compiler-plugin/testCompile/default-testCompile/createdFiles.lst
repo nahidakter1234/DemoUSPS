@@ -1,0 +1,10 @@
+walmart\Utilities\BeforeActions.class
+walmart\PageActions\ClothingAccShopAllActions.class
+walmart\PageActions\WalmartLogInActions.class
+walmart\PageElements\WalmartLogInLocators.class
+walmart\Utilities\SetupDriver.class
+walmart\StepDef\WalmartLogInSteps.class
+walmart\PageElements\ClothingAccShopAllLocator.class
+walmart\StepDef\ClothingAccShopAllStep.class
+walmart\Utilities\AfterActions.class
+walmart\Runner\Runner.class

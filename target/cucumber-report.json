@@ -1,0 +1,97 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2986285900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User lands on Shop All page",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-see-shop-all-page;user-lands-on-shop-all-page",
+        "after": [
+          {
+            "result": {
+              "duration": 668421900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7487606400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "ClothingAccShopAllStep.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279800,
+              "error_message": "java.lang.NullPointerException\r\n\tat walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)\r\n\tat walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)\r\n\tat ✽.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User selects clothing, shoes and accessories",
+            "match": {
+              "location": "ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User selects Shop All option",
+            "match": {
+              "location": "ClothingAccShopAllStep.user_selects_Shop_All_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify Landing",
+            "match": {
+              "location": "ClothingAccShopAllStep.verify_landing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to be able to see shop all page",
+    "description": "",
+    "id": "as-a-user-i-want-to-be-able-to-see-shop-all-page",
+    "keyword": "Feature",
+    "uri": "clothingaccsshopall.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
