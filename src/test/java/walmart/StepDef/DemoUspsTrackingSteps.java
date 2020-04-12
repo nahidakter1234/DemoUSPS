@@ -5,7 +5,7 @@ import cucumber.api.java.en.When;
 import walmart.PageActions.UspsAddChangeActions;
 import walmart.PageElements.UspsAddChangeLocators;
 
-public class UspsAddChangeSteps {
+public class DemoUspsTrackingSteps {
 	UspsAddChangeLocators UspsAddChangeLocatorsobj= new UspsAddChangeLocators();
 	UspsAddChangeActions UspsAddChangeActionsobj= new UspsAddChangeActions();
 	
@@ -19,7 +19,7 @@ public void user_provides_a_tracking(String Number) throws Throwable {
 	UspsAddChangeActionsobj.Hovermethod(Number);
 }
 
-@When("^Looks for information$")
+@When("^Looks for package information$")
 public void looks_for_information() throws Throwable {
    System.out.println("Looking for a match");
 }

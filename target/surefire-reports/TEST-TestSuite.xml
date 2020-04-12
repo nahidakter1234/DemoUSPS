@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.388" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.084" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\nahid\AppData\Local\Temp\surefire5130265821268349267\surefirebooter196586995041456966.jar C:\Users\nahid\AppData\Local\Temp\surefire5130265821268349267 2020-04-07T21-10-23_217-jvmRun1 surefire4100984009064401614tmp surefire_07051319888970603629tmp"/>
+    <property name="sun.java.command" value="C:\Users\nahid\AppData\Local\Temp\surefire3218342563524731425\surefirebooter711771820457526684.jar C:\Users\nahid\AppData\Local\Temp\surefire3218342563524731425 2020-04-11T20-45-45_169-jvmRun1 surefire2718272058446374003tmp surefire_01225827908673878028tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\nahid\workspace\WalmartProject\target\test-classes;C:\Users\nahid\workspace\WalmartProject\target\classes;C:\Users\nahid\.m2\repository\io\github\bonigarcia\webdrivermanager\3.7.1\webdrivermanager-3.7.1.jar;C:\Users\nahid\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\nahid\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nahid\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\nahid\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\nahid\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\nahid\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\nahid\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\nahid\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\nahid\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\nahid\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\nahid\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\nahid\.m2\repository\info\cukes\cucumber-testng\1.2.4\cucumber-testng-1.2.4.jar;C:\Users\nahid\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\nahid\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\nahid\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\nahid\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\nahid\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nahid\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nahid\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nahid\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nahid\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nahid\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nahid\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nahid\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nahid\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nahid\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nahid\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nahid\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nahid\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\nahid\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\nahid\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\nahid\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\nahid\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\nahid\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\nahid\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\nahid\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nahid\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nahid\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nahid\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nahid\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\nahid\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.0\cucumber-extentsreport-3.1.0.jar;C:\Users\nahid\.m2\repository\org\apache\poi\poi-ooxml\3.8-beta4\poi-ooxml-3.8-beta4.jar;C:\Users\nahid\.m2\repository\org\apache\poi\poi\3.8-beta4\poi-3.8-beta4.jar;C:\Users\nahid\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8-beta4\poi-ooxml-schemas-3.8-beta4.jar;C:\Users\nahid\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\nahid\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\nahid\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\nahid\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\nahid\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nahid\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nahid"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\nahid\AppData\Local\Temp\surefire5130265821268349267\surefirebooter196586995041456966.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nahid\AppData\Local\Temp\surefire3218342563524731425\surefirebooter711771820457526684.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\nahid\AppData\Local\Microsoft\WindowsApps;C:\TTSoftware\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_221\bin;;C:\windows\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Users\nahid\AppData\Local\Microsoft\WindowsApps;C:\TTSoftware\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_221\bin;;C:\windows\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.221-b11"/>
@@ -60,36 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="feature" classname="walmart.Runner.Runner" time="7.893">
-    <failure message="java.lang.NullPointerException" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-</failure>
-    <system-out><![CDATA[@regression
-Feature: As a user I want to be able to see shop all page
->> Initializing Chrome Driver
-User lands on Shop All page
-----------
-
-  Scenario: User lands on Shop All page               # clothingaccsshopall.feature:3
-    Given User is on Homepage                         # ClothingAccShopAllStep.user_is_on_Homepage()
-    When User selects clothing, shoes and accessories # ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories()
-      java.lang.NullPointerException
-      	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-      	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-      	at ?.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
-
-    And User selects Shop All option                  # ClothingAccShopAllStep.user_selects_Shop_All_option()
-    Then Verify Landing                               # ClothingAccShopAllStep.verify_landing()
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 45491
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1586308227.739][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
-Apr 07, 2020 9:10:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="feature" classname="walmart.Runner.Runner" time="6.998"/>
 </testsuite>

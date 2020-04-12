@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("uspshomepage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DemoUspsTracking.feature");
 formatter.feature({
   "line": 2,
-  "name": "land on homepage and continue to address change",
+  "name": "USPS Tracking",
   "description": "",
-  "id": "land-on-homepage-and-continue-to-address-change",
+  "id": "usps-tracking",
   "keyword": "Feature",
   "tags": [
     {
@@ -12,17 +12,13 @@ formatter.feature({
     }
   ]
 });
-formatter.before({
-  "duration": 5134625400,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 3,
-  "name": "Address change",
+  "name": "Search for a tracking Number",
   "description": "",
-  "id": "land-on-homepage-and-continue-to-address-change;address-change",
-  "type": "scenario",
-  "keyword": "Scenario"
+  "id": "usps-tracking;search-for-a-tracking-number",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
@@ -31,37 +27,119 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "From tools menu change address",
+  "name": "User provides a tracking \"\u003cNumber\u003e\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "land on address change page",
+  "name": "Looks for package information",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "User gets tracking information",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 10,
+  "name": "",
+  "description": "",
+  "id": "usps-tracking;search-for-a-tracking-number;",
+  "rows": [
+    {
+      "cells": [
+        "Number"
+      ],
+      "line": 11,
+      "id": "usps-tracking;search-for-a-tracking-number;;1"
+    },
+    {
+      "cells": [
+        "07710600"
+      ],
+      "line": 12,
+      "id": "usps-tracking;search-for-a-tracking-number;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 2826112400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Search for a tracking Number",
+  "description": "",
+  "id": "usps-tracking;search-for-a-tracking-number;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "User on Homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User provides a tracking \"07710600\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Looks for package information",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "User gets tracking information",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "UspsAddChangeSteps.be_on_Homepage()"
+  "location": "DemoUspsTrackingSteps.user_on_Homepage()"
 });
 formatter.result({
-  "duration": 2657300600,
+  "duration": 3038966600,
   "status": "passed"
 });
 formatter.match({
-  "location": "UspsAddChangeSteps.on_homepage_from_tools_menu_change_address()"
+  "arguments": [
+    {
+      "val": "07710600",
+      "offset": 26
+    }
+  ],
+  "location": "DemoUspsTrackingSteps.user_provides_a_tracking(String)"
 });
 formatter.result({
-  "duration": 317800,
-  "error_message": "java.lang.Error: Unresolved compilation problem: \n\tThe method changeaddress() is undefined for the type UspsAddChangeActions\n\r\n\tat walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)\r\n\tat ✽.When From tools menu change address(uspshomepage.feature:6)\r\n",
-  "status": "failed"
+  "duration": 234800900,
+  "status": "passed"
 });
 formatter.match({
-  "location": "UspsAddChangeSteps.land_on_address_change_page()"
+  "location": "DemoUspsTrackingSteps.looks_for_information()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DemoUspsTrackingSteps.user_gets_tracking_information()"
+});
+formatter.result({
+  "duration": 2229800,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 113600,
+  "duration": 717745400,
   "status": "passed"
 });
 });

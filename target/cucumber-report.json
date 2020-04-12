@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5134625400,
+              "duration": 2826112400,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "Address change",
+        "line": 12,
+        "name": "Search for a tracking Number",
         "description": "",
-        "id": "land-on-homepage-and-continue-to-address-change;address-change",
+        "id": "usps-tracking;search-for-a-tracking-number;;2",
         "after": [
           {
             "result": {
-              "duration": 113600,
+              "duration": 717745400,
               "status": "passed"
             },
             "match": {
@@ -30,52 +30,79 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2657300600,
+              "duration": 3038966600,
               "status": "passed"
             },
             "line": 5,
             "name": "User on Homepage",
             "match": {
-              "location": "UspsAddChangeSteps.be_on_Homepage()"
+              "location": "DemoUspsTrackingSteps.user_on_Homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 317800,
-              "error_message": "java.lang.Error: Unresolved compilation problem: \n\tThe method changeaddress() is undefined for the type UspsAddChangeActions\n\r\n\tat walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)\r\n\tat ✽.When From tools menu change address(uspshomepage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 234800900,
+              "status": "passed"
             },
             "line": 6,
-            "name": "From tools menu change address",
+            "name": "User provides a tracking \"07710600\"",
             "match": {
-              "location": "UspsAddChangeSteps.on_homepage_from_tools_menu_change_address()"
+              "arguments": [
+                {
+                  "val": "07710600",
+                  "offset": 26
+                }
+              ],
+              "location": "DemoUspsTrackingSteps.user_provides_a_tracking(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 79000,
+              "status": "passed"
             },
             "line": 7,
-            "name": "land on address change page",
+            "name": "Looks for package information",
             "match": {
-              "location": "UspsAddChangeSteps.land_on_address_change_page()"
+              "location": "DemoUspsTrackingSteps.looks_for_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2229800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets tracking information",
+            "match": {
+              "location": "DemoUspsTrackingSteps.user_gets_tracking_information()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
           }
         ]
       }
     ],
-    "name": "land on homepage and continue to address change",
+    "name": "USPS Tracking",
     "description": "",
-    "id": "land-on-homepage-and-continue-to-address-change",
+    "id": "usps-tracking",
     "keyword": "Feature",
-    "uri": "uspshomepage.feature",
+    "uri": "DemoUspsTracking.feature",
     "tags": [
       {
         "line": 1,
