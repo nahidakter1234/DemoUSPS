@@ -2,32 +2,36 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11844" started-at="2020-03-01T15:07:27Z" finished-at="2020-03-01T15:07:38Z">
+  <suite name="Default suite" duration-ms="8780" started-at="2020-04-10T21:37:07Z" finished-at="2020-04-10T21:37:16Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:walmart.Runner.Runner@91161c7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11844" started-at="2020-03-01T15:07:27Z" finished-at="2020-03-01T15:07:38Z">
+    <test name="Default test" duration-ms="8780" started-at="2020-04-10T21:37:07Z" finished-at="2020-04-10T21:37:16Z">
       <class name="walmart.Runner.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:walmart.Runner.Runner@91161c7]" name="setUpClass" is-config="true" duration-ms="203" started-at="2020-03-01T10:07:27Z" finished-at="2020-03-01T10:07:27Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:walmart.Runner.Runner@91161c7]" name="setUpClass" is-config="true" duration-ms="169" started-at="2020-04-10T17:37:07Z" finished-at="2020-04-10T17:37:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:walmart.Runner.Runner@91161c7]" name="feature" duration-ms="11311" started-at="2020-03-01T10:07:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-01T10:07:38Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:walmart.Runner.Runner@91161c7]" name="feature" duration-ms="7976" started-at="2020-04-10T17:37:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-10T17:37:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[As a user I want to be able to see shop all page]]>
+                <![CDATA[land on homepage and continue to address change]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[java.lang.NullPointerException]]>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.NullPointerException
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -54,17 +58,18 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-	at ✽.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
+	at walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)
+	at ✽.When From tools menu change address(uspshomepage.feature:6)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:walmart.Runner.Runner@91161c7]" name="tearDownClass" is-config="true" duration-ms="266" started-at="2020-03-01T10:07:38Z" finished-at="2020-03-01T10:07:38Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:walmart.Runner.Runner@91161c7]" name="tearDownClass" is-config="true" duration-ms="571" started-at="2020-04-10T17:37:15Z" finished-at="2020-04-10T17:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

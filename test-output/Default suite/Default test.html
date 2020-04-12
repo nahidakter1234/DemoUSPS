@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 01 10:07:27 EST 2020</td>
+<td>Started on:</td><td>Fri Apr 10 17:37:07 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11844 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8780 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,8 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='walmart.Runner.Runner.feature()'><b>feature</b><br>Test class: walmart.Runner.Runner<br>Test method: Runs Cucumber Feature<br>Parameters: As a user I want to be able to see shop all page</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
+<td title='walmart.Runner.Runner.feature()'><b>feature</b><br>Test class: walmart.Runner.Runner<br>Test method: Runs Cucumber Feature<br>Parameters: land on homepage and continue to address change</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -103,12 +105,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-	at ?.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace497786326", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace497786326'><pre>cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
+	at walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)
+	at ?.When From tools menu change address(uspshomepage.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace987489551", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace987489551'><pre>cucumber.runtime.CucumberException: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -135,12 +140,13 @@ Caused by: java.lang.NullPointerException
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-	at ?.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
+	at walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)
+	at ?.When From tools menu change address(uspshomepage.feature:6)
 </pre></div></td>
-<td>11</td>
+<td>7</td>
 <td>walmart.Runner.Runner@91161c7</td></tr>
 </table><p>
 </body>

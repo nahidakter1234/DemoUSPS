@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 1, 2020 10:07:27 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Apr 10, 2020 05:37:07 PM</span>
 				</a>
 			</li>
 			<li>
@@ -166,10 +166,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='25%'><span class='strong'>1</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='33.333%'><span class='strong'>1</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -185,23 +185,23 @@
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>As a user I want to be able to see shop all page</span>
-						<span class='test-time'>Mar 1, 2020 10:07:27 AM</span>
+						<span class='test-name'>land on homepage and continue to address change</span>
+						<span class='test-time'>Apr 10, 2020 05:37:07 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 10s+501ms</span>
+	<span class='duration right label'>0h 0m 7s+842ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">User lands on Shop All page</span>
+		<span class="desc-text">Address change</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given User is on Homepage</span>
+			<span class="bdd-step-name">Given User on Homepage</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -209,27 +209,20 @@
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When User selects clothing, shoes and accessories</span>
-				<div class='pre'><pre>java.lang.NullPointerException
-	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-	at ?.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
+			<span class="bdd-step-name">When From tools menu change address</span>
+				<div class='pre'><pre>java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
+	at walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)
+	at ?.When From tools menu change address(uspshomepage.feature:6)
 </pre></div>
 			
 		</li>
-		<li test-id='5' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And User selects Shop All option</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='6' class='node then skip' status='skip'>
+		<li test-id='5' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then Verify Landing</span>
+			<span class="bdd-step-name">Then land on address change page</span>
 				<div class='pre'>skipped</div>
 			
 		</li>
@@ -312,8 +305,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 1, 2020 10:07:27 AM</td>
-										<td class='linked' test-id='1'>As a user I want to be able to see shop all page</td>
+										<td>Apr 10, 2020 05:37:07 PM</td>
+										<td class='linked' test-id='1'>land on homepage and continue to address change</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -360,7 +353,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.NullPointerException</span>
+                                <span class='exception-name'>java.lang.Error</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -375,12 +368,13 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Mar 1, 2020 10:07:38 AM</td>
-                                                        <td class='linked' test-id='4'>As a user I want to be able to see shop all page.User lands on Shop All page.When User selects clothing, shoes and accessories</td>
-                                                        <td><pre><pre>java.lang.NullPointerException
-	at walmart.PageActions.ClothingAccShopAllActions.sparkmenu(ClothingAccShopAllActions.java:17)
-	at walmart.StepDef.ClothingAccShopAllStep.user_selects_clothing_shoes_and_accessories(ClothingAccShopAllStep.java:23)
-	at ?.When User selects clothing, shoes and accessories(clothingaccsshopall.feature:6)
+                                                        <td>Apr 10, 2020 05:37:15 PM</td>
+                                                        <td class='linked' test-id='4'>land on homepage and continue to address change.Address change.When From tools menu change address</td>
+                                                        <td><pre><pre>java.lang.Error: Unresolved compilation problem: 
+	The method changeaddress() is undefined for the type UspsAddChangeActions
+
+	at walmart.StepDef.UspsAddChangeSteps.on_homepage_from_tools_menu_change_address(UspsAddChangeSteps.java:20)
+	at ?.When From tools menu change address(uspshomepage.feature:6)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -419,25 +413,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 1, 2020 10:07:27 AM</div>
+					<div class='panel-lead'>Apr 10, 2020 05:37:07 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 1, 2020 10:07:38 AM</div>
+			 		<div class='panel-lead'>Apr 10, 2020 05:37:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 11s+234ms</div>
+					<div class='panel-lead'>0h 0m 7s+924ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -496,9 +490,9 @@
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 2,
+				skipGrandChild: 1,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 3,
+				exceptionsGrandChild: 2,
 			};
 		</script>
 		

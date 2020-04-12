@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ClothingAccShopAllLocator {
 
-	@FindBy (xpath= "//id=header-Header-sparkButton]")
+	@FindBy (xpath= "//button[@class='f_a al_c f_c']//img")
 	public WebElement Spark;
 
 

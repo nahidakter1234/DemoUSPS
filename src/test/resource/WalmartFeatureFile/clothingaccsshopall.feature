@@ -1,4 +1,4 @@
-@regression
+
 Feature: As a user I want to be able to see shop all page
 Scenario: User lands on Shop All page
 
